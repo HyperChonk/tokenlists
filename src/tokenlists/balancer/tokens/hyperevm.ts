@@ -61,4 +61,7 @@ export default [
 
   // Wrapped aTokens (ERC-4626) for boosted pools
   '0x6d9dae449c4beb29151132b4c4b2692b7954cfae', // wrapped hyfeUSD
+
+  '0xBE65F0F410A72BeC163dC65d46c83699e957D588', // USDp
+  '0x9B3a8f7CEC208e247d97dEE13313690977e24459', // sUSDp
 ]

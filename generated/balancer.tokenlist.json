@@ -1,1019 +1,1035 @@
 {
-  "name": "Balancer",
-  "version": {
-    "major": 1,
-    "minor": 0,
-    "patch": 362
-  },
-  "keywords": [
-    "Balancer",
-    "DeFi",
-    "DEX",
-    "AMM",
-    "Exchange",
-    "Liquidity",
-    "Pool",
-    "Token",
-    "Swap"
-  ],
-  "logoURI": "https://raw.githubusercontent.com/balancer/pebbles/master/images/pebbles-pad.256w.png",
-  "timestamp": "2025-09-05T06:14:14.175Z",
-  "tokens": [
-    {
-      "chainId": 999,
-      "address": "0x5555555555555555555555555555555555555555",
-      "name": "Wrapped HYPE",
-      "symbol": "WHYPE",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x5555555555555555555555555555555555555555.png"
-    },
-    {
-      "chainId": 999,
-      "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
-      "name": "USD₮0",
-      "symbol": "USD₮0",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb.png"
-    },
-    {
-      "chainId": 999,
-      "address": "0x7f5aB8f7974FCcd857163E5DA649Eb2588201dF1",
-      "name": "HyperGun",
-      "symbol": "HGUN",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xfFaa4a3D97fE9107Cef8a3F48c069F577Ff76cC1",
-      "name": "Staked HYPE",
-      "symbol": "stHYPE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xE9e70B7C9D108011C5aB15Ce9BF6EF21D0cF8363",
-      "name": "peanut is gay",
-      "symbol": "PGAY",
-      "decimals": 6
-    },
-    {
-      "chainId": 999,
-      "address": "0x0D745EAA9E70bb8B6e2a0317f85F1d536616bD34",
-      "name": "HyperLend HyperEVM WHYPE",
-      "symbol": "hHyperEvmWHYPE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x5748ae796AE46A4F1348a1693de4b50560485562",
-      "name": "Looped HYPE",
-      "symbol": "LHYPE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x94e8396e0869c9F2200760aF0621aFd240E1CF38",
-      "name": "Staked HYPE Shares",
-      "symbol": "wstHYPE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x7C97cd7B57b736c6AD74fAE97C0e21e856251dcf",
-      "name": "WHYPE Hypurr",
-      "symbol": "hyWHYPE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x75cD9E692a2bF5157F6429D0a5E5A75b3e5ea884",
-      "name": "HYDOGE",
-      "symbol": "HYDOGE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x96C6cBB6251Ee1c257b2162ca0f39AA5Fa44B1FB",
-      "name": "Hyperbeat Ultra HYPE",
-      "symbol": "hbHYPE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x02c6a2fA58cC01A18B8D9E00eA48d65E4dF26c70",
-      "name": "feUSD",
-      "symbol": "feUSD",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70.png"
-    },
-    {
-      "chainId": 999,
-      "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
-      "name": "USDeOFT",
-      "symbol": "USDe",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png"
-    },
-    {
-      "chainId": 999,
-      "address": "0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463",
-      "name": "Unit Bitcoin",
-      "symbol": "UBTC",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x9fdbda0a5e284c32744d2f17ee5c74b284993463.png"
-    },
-    {
-      "chainId": 999,
-      "address": "0x47bb061C0204Af921F43DC73C7D7768d2672DdEE",
-      "name": "alright buddy",
-      "symbol": "BUDDY",
-      "decimals": 6
-    },
-    {
-      "chainId": 999,
-      "address": "0xae83a3a0F0722782C943DA06570F9F963ecB515e",
-      "name": "DOG",
-      "symbol": "DOG",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x0Ab8AAE3335Ed4B373A33D9023b6A6585b149D33",
-      "name": "HyperLend HyperEVM wstHYPE",
-      "symbol": "hHyperEvmwstHYPE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x74a40455Ff49ECE02009BEe405154ac9Ac3FA340",
-      "name": "Stonks",
-      "symbol": "STONKS",
-      "decimals": 6
-    },
-    {
-      "chainId": 999,
-      "address": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
-      "name": "Unit Ethereum",
-      "symbol": "UETH",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x39694eFF3b02248929120c73F90347013Aec834d",
-      "name": "stHYPE AMM",
-      "symbol": "stHYPE AMM LP",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xdAbB040c428436d41CECd0Fb06bCFDBAaD3a9AA8",
-      "name": "Hyperpie Staked mHYPE",
-      "symbol": "mHYPE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xca79db4B49f608eF54a5CB813FbEd3a6387bC645",
-      "name": "Last USD",
-      "symbol": "USDXL",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xca79db4b49f608ef54a5cb813fbed3a6387bc645.png"
-    },
-    {
-      "chainId": 999,
-      "address": "0x2831775cb5e64B1D892853893858A261E898FbEb",
-      "name": "wHYPE",
-      "symbol": "wHYPE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x6D1aB1c149cA270F15ef2089e3D03a2CA73c1A78",
-      "name": "HYPE",
-      "symbol": "Claim: hyperliquid-labs.com",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x1Ecd15865D7F8019D546f76d095d9c93cc34eDFa",
-      "name": "LiquidLaunch",
-      "symbol": "LIQD",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xB44ca395a468229dD61d3819F30bf4bf47e84a5d",
-      "name": "Kitten Swap",
-      "symbol": "KITTEN",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x1fbcCdc677c10671eE50b46C61F0f7d135112450",
-      "name": "Ether",
-      "symbol": "ETH",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x37E44F3070b5455f1f5d7aaAd9Fc8590229CC5Cb",
-      "name": "WHYPE Variable Debt Hypurr",
-      "symbol": "variableDebtWHYPE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x1D5a8a4EfbE8Ce2D4a6d241901D04e351399fe38",
-      "name": "Turbo",
-      "symbol": "TURBO",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x4533C3002660117a56fa44ED3C4bF4b6A8E0b0A2",
-      "name": "Hyperlauncher",
-      "symbol": "LAUNCH",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x9b498C3c8A0b8CD8BA1D9851d40D186F1872b44E",
-      "name": "Purr",
-      "symbol": "PURR",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xACdAb7652772aed39Dcbb939a6C4159f6aA6Ad41",
-      "name": "PEPE",
-      "symbol": "PEPE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xC8b6E0acf159E058E22c564C0C513ec21f8a1Bf5",
-      "name": "wstHYPE Hypurr",
-      "symbol": "hywstHYPE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x4Ae080EcCD89CF1dC2965Dbd5198B7a4EfDfa7B8",
-      "name": "hi im Glo",
-      "symbol": "GLO",
-      "decimals": 6
-    },
-    {
-      "chainId": 999,
-      "address": "0x5e105266db42f78FA814322Bce7f388B4C2e61eb",
-      "name": "Hyperbeat USDT",
-      "symbol": "hbUSDT",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xB5fE77d323d69eB352A02006eA8ecC38D882620C",
-      "name": "KEI Stablecoin",
-      "symbol": "KEI",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x7952D59a35aCf858556B976e8476dF7949856d0e",
-      "name": "sidelined",
-      "symbol": "SIDE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xE5C927778955205AB0dB5076c2ce4615Aff23Ce8",
-      "name": "Holy Liquid\n\n 2.0",
-      "symbol": "HL2.0",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xa0399Ff8F46Ce6C2Cfee05C5F67307C7F390a439",
-      "name": "USDXL Variable Debt Hypurr",
-      "symbol": "variableDebtUSDXL",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xc061d38903b99aC12713B550C2CB44B221674F94",
-      "name": "Hyperbeat Ultra uBTC",
-      "symbol": "hbBTC",
-      "decimals": 8
-    },
-    {
-      "chainId": 999,
-      "address": "0xb50A96253aBDF803D85efcDce07Ad8becBc52BD5",
-      "name": "Hyper USD",
-      "symbol": "USDHL",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb50a96253abdf803d85efcdce07ad8becbc52bd5.png"
-    },
-    {
-      "chainId": 999,
-      "address": "0xb50f23153cbEbaCED6F15a537e023d910905D4D5",
-      "name": "Hyperliquid Ape",
-      "symbol": "HAPE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x6E0F6a71a74fAD5D0ED5A34b468203A4a4437b71",
-      "name": "EVMoon",
-      "symbol": "EVM",
-      "decimals": 9
-    },
-    {
-      "chainId": 999,
-      "address": "0x27249FC563e0308F7A9e27B23379527B06357D72",
-      "name": "Hypepe",
-      "symbol": "HP",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x62D5dD0190376c444a4B2E2e860aa392eC83Ed80",
-      "name": "Chomolon Joff",
-      "symbol": "JOFF",
-      "decimals": 8
-    },
-    {
-      "chainId": 999,
-      "address": "0x66c58ccee34539bcc507DfbB62B7DC37518E8eC9",
-      "name": "Hyper Ski",
-      "symbol": "HYPERSKI",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0x4B46a2FF5b7a5B3E69D7a7BffDb19E47835e6611",
-      "name": "HYPEDOGE",
-      "symbol": "HYPEDOGE",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xE2c53Ed964578258EdA427382d01d0C98a5Bbb8d",
-      "name": "WARx",
-      "symbol": "WARx",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xd0aC013E7160bE0B745197a69768ec278a8576AF",
-      "name": "Meowsk",
-      "symbol": "MEOWSK",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xdecDE03733979B1b87B5bb085F97b583fb548288",
-      "name": "Hype Elon",
-      "symbol": "HYPEELON",
-      "decimals": 18
-    },
-    {
-      "chainId": 999,
-      "address": "0xaE4EFbc7736f963982aACb17EFA37fCBAb924cB3",
-      "name": "Solv BTC",
-      "symbol": "SolvBTC",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xae4efbc7736f963982aacb17efa37fcbab924cb3.png"
-    },
-    {
-      "chainId": 999,
-      "address": "0xE2B36A37bD98ba81658dC5454F2dB2F98438d140",
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8
-    },
-    {
-      "chainId": 999,
-      "address": "0x02379E4a55111d999Ac18C367F5920119398b94B",
-      "name": "UBTC Hypurr",
-      "symbol": "hyUBTC",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x9fdbda0a5e284c32744d2f17ee5c74b284993463.png"
-    },
-    {
-      "chainId": 999,
-      "address": "0xFd32712A1cb152c03a62D54557fcb1dE372ABfe9",
-      "name": "USDHL Hypurr",
-      "symbol": "hyUSDHL",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb50a96253abdf803d85efcdce07ad8becbc52bd5.png"
-    },
-    {
-      "chainId": 999,
-      "address": "0x1Ca7e21B2dAa5Ab2eB9de7cf8f34dCf9c8683007",
-      "name": "USD₮0 Hypurr",
-      "symbol": "hyUSD₮0",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb.png"
-    },
-    {
-      "chainId": 999,
-      "address": "0xAEA02692F502b47e116bdfA9a4CeB3138Bd8B516",
-      "name": "feUSD Hypurr",
-      "symbol": "hyfeUSD",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70.png"
-    },
-    {
-      "chainId": 999,
-      "address": "0xe8F7D82A73f13A64d689e7ddAD06139BFb51f9C6",
-      "name": "USDe Hypurr",
-      "symbol": "hyUSDe",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png"
-    },
-    {
-      "chainId": 999,
-      "address": "0x6D9daE449C4bEb29151132b4C4B2692b7954CfaE",
-      "name": "Wrapped feUSD Hypurr",
-      "symbol": "wahyfeUSD",
-      "decimals": 18
-    },
-    {
-      "chainId": 80094,
-      "address": "0x6969696969696969696969696969696969696969",
-      "name": "Wrapped Bera",
-      "symbol": "WBERA",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x6969696969696969696969696969696969696969.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xD77552D3849ab4D8C3b189A9582d0ba4C1F4f912",
-      "name": "Wrapped gBERA",
-      "symbol": "wgBERA",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
-      "name": "WETH",
-      "symbol": "WETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
-      "name": "Honey",
-      "symbol": "HONEY",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x28e0e3B9817012b356119dF9e217c25932D609c2",
-      "name": "Burr Governance Token",
-      "symbol": "BURR",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x28e0e3b9817012b356119df9e217c25932d609c2.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
-      "name": "Nectar",
-      "symbol": "NECT",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x549943e04f40284185054145c6E4e9568C1D3241",
-      "name": "Bridged USDC (Stargate)",
-      "symbol": "USDC.e",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x549943e04f40284185054145c6e4e9568c1d3241.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x231A6BD8eB88Cfa42776B7Ac575CeCAf82bf1E21",
-      "name": "Beraplug",
-      "symbol": "PLUG",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x231a6bd8eb88cfa42776b7ac575cecaf82bf1e21.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xBaadCC2962417C01Af99fb2B7C75706B9bd6Babe",
-      "name": "Liquid BGT",
-      "symbol": "LBGT",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xbaadcc2962417c01af99fb2b7c75706b9bd6babe.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x656b95E550C07a9ffe548bd4085c72418Ceb1dba",
-      "name": "Bera Governance Token",
-      "symbol": "BGT",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x656b95e550c07a9ffe548bd4085c72418ceb1dba.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
-      "name": "Infrared BGT",
-      "symbol": "iBGT",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x8BF591Eae535f93a242D5A954d3Cde648b48A5A8",
-      "name": "Sumerian USD",
-      "symbol": "suUSD",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x8bf591eae535f93a242d5a954d3cde648b48a5a8.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xe85411C030fB32A9D8b14Bbbc6CB19417391F711",
-      "name": "Sumerian BTC",
-      "symbol": "suBTC",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xe85411c030fb32a9d8b14bbbc6cb19417391f711.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x30C8Cf6B46AA4DF3F9fbC2857aca92F10a6cAd7f",
-      "name": "Eliteness.Network",
-      "symbol": "ELITE",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x30c8cf6b46aa4df3f9fbc2857aca92f10a6cad7f.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23",
-      "name": "NECT/USDC/HONEY",
-      "symbol": "NECT/USDC/HONEY",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x65967109401506222609BDc86e3039F910C4d08b",
-      "name": "TWIN ASSET TOKEN - COIN",
-      "symbol": "COIN",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x65967109401506222609bdc86e3039f910c4d08b.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x9EA30078bc52740F10812539E77B6502A2a5387a",
-      "name": "TWIN ASSET TOKEN - iCOIN",
-      "symbol": "iCOIN",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x9ea30078bc52740f10812539e77b6502a2a5387a.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x1De7EfAbfA656d077cFD961e4a83b061D351a83B",
-      "name": "TWIN ASSET TOKEN - NVDA",
-      "symbol": "NVDA",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x1de7efabfa656d077cfd961e4a83b061d351a83b.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x3A4B2d07c237C701c68238dA07E11302353A16F1",
-      "name": "TWIN ASSET TOKEN - iNVDA",
-      "symbol": "iNVDA",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x3a4b2d07c237c701c68238da07e11302353a16f1.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x0555e30da8f98308edb960aa94c0db47230d2b9c.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
-      "name": "Solv BTC",
-      "symbol": "SolvBTC",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x541fd749419ca806a8bc7da8ac23d346f2df8b77.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
-      "name": "xSolvBTC",
-      "symbol": "xSolvBTC",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xcc0966d8418d412c599a6421b760a847eb169a8c.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x439c84851bb1EDd8Db3DD94809ebBEA6670682F3",
-      "name": "Beracana NECT",
-      "symbol": "canaNECT",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x439c84851bb1edd8db3dd94809ebbea6670682f3.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
-      "name": "USD₮0",
-      "symbol": "USD₮0",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x779ded0c9e1022225f8e0630b35a9b54be713736.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x768670beAD85b4383940F60AfD8492AC76b2Ba28",
-      "name": "Beracana BERA",
-      "symbol": "canaBERA",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x768670bead85b4383940f60afd8492ac76b2ba28.png"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xbdaB22CD9a4BcaB42Fe5Cf17e523A029cbe903Dc",
-      "name": "Boeing Company Tokenized by Sailing",
-      "symbol": "BAs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xbdab22cd9a4bcab42fe5cf17e523a029cbe903dc.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x69B88c116cb7cBBC5B0f85CBeA1Be91DF40b56E1",
-      "name": "Lockheed Martin Corporation Tokenized by Sailing",
-      "symbol": "LMTs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x69b88c116cb7cbbc5b0f85cbea1be91df40b56e1.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x24BC5c9a529024e2B670B5b8166993d4ECaefE22",
-      "name": "Coinbase Global Inc Tokenized by Sailing",
-      "symbol": "COINs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x24bc5c9a529024e2b670b5b8166993d4ecaefe22.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x4E0c8b91183374D3aB5eE691b0F59F1a4A671D80",
-      "name": "Warner Bros. Discovery Inc Tokenized by Sailing",
-      "symbol": "WBDs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x4e0c8b91183374d3ab5ee691b0f59f1a4a671d80.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xd9c5b692ed20fA4207f2da1a3db3450828d90a46",
-      "name": "YieldMax Universe Fund of Option Income ETFs Tokenized by Sailing",
-      "symbol": "YMAXs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xd9c5b692ed20fa4207f2da1a3db3450828d90a46.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x25f838Dc9DFC8F4Ac5bF957c475F90860Dde3460",
-      "name": "ARK Innovation ETF Tokenized By Sailing",
-      "symbol": "ARKKs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x25f838dc9dfc8f4ac5bf957c475f90860dde3460.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x17A238d9a31fFF2f1078C8e1E4b2aC6B84E3A068",
-      "name": "Paramount Global Tokenized by Sailing",
-      "symbol": "PARAs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x17a238d9a31fff2f1078c8e1e4b2ac6b84e3a068.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x6379BB654aA1B63bC602DBC947f60305AB9d6467",
-      "name": "YieldMax Short COIN Option Income Strategy ETF Tokenized by Sailing",
-      "symbol": "FIATs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x6379bb654aa1b63bc602dbc947f60305ab9d6467.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x39890d84ac4a0E94d486068486f6513470E541b4",
-      "name": "Roundhill S&P 500 0DTE Covered Call Strategy ETF Tokenized by Sailing",
-      "symbol": "XDTEs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x39890d84ac4a0e94d486068486f6513470e541b4.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x77D5cbfE85b3DfB6dB3e63d9392829f4C34FFA86",
-      "name": "Apple Inc Tokenized By Sailing",
-      "symbol": "AAPLs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x77d5cbfe85b3dfb6db3e63d9392829f4c34ffa86.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xca72Cf92768bc1ABEF4b14cFD3E096c8B5f54696",
-      "name": "Tesla Inc Tokenized By Sailing",
-      "symbol": "TSLAs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xca72cf92768bc1abef4b14cfd3e096c8b5f54696.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x30F8a2fE5Ea2eb2E64b26CcbD33b690Ec4EFe723",
-      "name": "Amazon.com Inc Tokenized By Sailing",
-      "symbol": "AMZNs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x30f8a2fe5ea2eb2e64b26ccbd33b690ec4efe723.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xa8e8EFB06Ff91e8c5BEeD849417945d39F3f22Eb",
-      "name": "SPDR S&P 500 ETF Trust Tokenized By Sailing",
-      "symbol": "SPYs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xa8e8efb06ff91e8c5beed849417945d39f3f22eb.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x70fA06e485285B6873B0A93189B613E2d85dc5e2",
-      "name": "GameStop Corp Tokenized By Sailing",
-      "symbol": "GMEs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x70fa06e485285b6873b0a93189b613e2d85dc5e2.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x59dEA303501B18c058882096b781B89B836aA12C",
-      "name": "Grupo Supervielle SA Tokenized By Sailing",
-      "symbol": "SUPVs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x59dea303501b18c058882096b781b89b836aa12c.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xbc2CeE93341C0e10d2fd5ED502F17AF88CFa1E7B",
-      "name": "YPF S.A. Tokenized by Sailing",
-      "symbol": "YPFs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xbc2cee93341c0e10d2fd5ed502f17af88cfa1e7b.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xf79d63c21d7C69f1097114716dDB76844169B363",
-      "name": "YieldMax COIN Option Income Strategy ETF Tokenized by Sailing",
-      "symbol": "CONYs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xf79d63c21d7c69f1097114716ddb76844169b363.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xac894A14e3D2CE9E89AefD209b0a38c12AdcF624",
-      "name": "MercadoLibre Inc. Tokenized by Sailing",
-      "symbol": "MELIs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xac894a14e3d2ce9e89aefd209b0a38c12adcf624.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x9933Bb212C36860EF22915D44b74a8Cf1ffd45BB",
-      "name": "NVIDIA Corporation Tokenized by Sailing",
-      "symbol": "NVDAs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x9933bb212c36860ef22915d44b74a8cf1ffd45bb.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xB35ffDB091e2e4361d907d5AA7dB3C150846a3e1",
-      "name": "Meta Platforms Inc Tokenized By Sailing",
-      "symbol": "METAs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb35ffdb091e2e4361d907d5aa7db3c150846a3e1.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x849F0393632746AC5e8426b53d78266d1d8ac1cd",
-      "name": "Circle Internet Group Inc Tokenized by Sailing",
-      "symbol": "CRCLs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x849f0393632746ac5e8426b53d78266d1d8ac1cd.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x8f7F14481a9c0943836898F825BFb5494b7828Db",
-      "name": "DLocal Ltd Tokenized By Sailing",
-      "symbol": "DLOs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x8f7f14481a9c0943836898f825bfb5494b7828db.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x08bc8b0c234390a40Aa305277355fd1A1819f10E",
-      "name": "Upstart Holdings Inc Tokenized by Sailing",
-      "symbol": "UPSTs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x08bc8b0c234390a40aa305277355fd1a1819f10e.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x7542d8347913fA8eE3090fFf38544CDF694dd5F9",
-      "name": "NEOS S&P 500 High Income ETF Tokenized by Sailing",
-      "symbol": "SPYIs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x7542d8347913fa8ee3090fff38544cdf694dd5f9.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x3a33A4Fa4443A5fd4aa89349BB3D2bc1D644478b",
-      "name": "AMC Entertainment Holdings Inc Tokenized By Sailing",
-      "symbol": "AMCs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x3a33a4fa4443a5fd4aa89349bb3d2bc1d644478b.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x12855A68877A95482CEA16a39AaA25009ac6E396",
-      "name": "Invesco QQQ Trust Tokenized By Sailing",
-      "symbol": "QQQs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x12855a68877a95482cea16a39aaa25009ac6e396.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xB7ca08EEF00a58489A670a1E22D4c6D01579db2F",
-      "name": "Microstrategy Inc Tokenized By Sailing",
-      "symbol": "MSTRs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb7ca08eef00a58489a670a1e22d4c6d01579db2f.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xe9C99da8395C57Bd08830c547a9c5d57A23C5cB3",
-      "name": "Ginkgo Bioworks Inc Tokenized By Sailing",
-      "symbol": "DNAs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xe9c99da8395c57bd08830c547a9c5d57a23c5cb3.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x8dcCB687201955299E7bb1da47664313ff6759dd",
-      "name": "The Walt Disney Company Tokenized By Sailing",
-      "symbol": "DISs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x8dccb687201955299e7bb1da47664313ff6759dd.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x7195A0Bc1e8A8b29Cd426D545522d38e698120Bf",
-      "name": "Goldman Sachs Physical Gold ETF Tokenized By Sailing",
-      "symbol": "AAAUs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x7195a0bc1e8a8b29cd426d545522d38e698120bf.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xD2A26cF1d3aB11799AFd3E2461eC7ea0D62eEC6C",
-      "name": "Airbnb Inc Tokenized By Sailing",
-      "symbol": "ABNBs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xd2a26cf1d3ab11799afd3e2461ec7ea0d62eec6c.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x42BECBE61383ce454db886e2A2802eC88ddC6beb",
-      "name": "Palantir Technologies Inc Tokenized by Sailing",
-      "symbol": "PLTRs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x42becbe61383ce454db886e2a2802ec88ddc6beb.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x4D9CeB1a0baA95b1Ae6198c152F44AB4e919824D",
-      "name": "Dynatrace Inc Tokenized By Sailing",
-      "symbol": "DTs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x4d9ceb1a0baa95b1ae6198c152f44ab4e919824d.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x43456286034E248EFC1471687fA7e7fF6aC4Bd5a",
-      "name": "McDonalds Tokenized By Sailing",
-      "symbol": "MCDs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x43456286034e248efc1471687fa7e7ff6ac4bd5a.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xB1fef1bcf006604c382200168932f00812Ac9FF0",
-      "name": "The Goldman Sachs Group Inc Tokenized by Sailing",
-      "symbol": "GSs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb1fef1bcf006604c382200168932f00812ac9ff0.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x6C353a03d1177b5bA0C4Da63dA77341433015F86",
-      "name": "Uber Technologies Inc Tokenized by Sailing",
-      "symbol": "UBERs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x6c353a03d1177b5ba0c4da63da77341433015f86.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x682BedD46D9d308eF35eaa7F92430e8A57c73792",
-      "name": "BlackRock Inc Tokenized by Sailing",
-      "symbol": "BLKs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x682bedd46d9d308ef35eaa7f92430e8a57c73792.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0xB064c58a63EBf8D03CD7A063e9e5e1398CdeA138",
-      "name": "BYD Company Limited Tokenized by Sailing",
-      "symbol": "BYDs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb064c58a63ebf8d03cd7a063e9e5e1398cdea138.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x56b4930057bcF3Dc9b8f6F17FF64dD54698598e8",
-      "name": "Microsoft Corporation Tokenized by Sailing",
-      "symbol": "MSFTs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x56b4930057bcf3dc9b8f6f17ff64dd54698598e8.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x23a9dfBc5f489311E891118a587C5367cc992a40",
-      "name": "United States Natural Gas Fund LP Tokenized by Sailing",
-      "symbol": "UNGs",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x23a9dfbc5f489311e891118a587c5367cc992a40.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x3e5D85dD846B4Ca5A12Eb19eBd21d2798b724c36",
-      "name": "Sailing",
-      "symbol": "SAIL",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x3e5d85dd846b4ca5a12eb19ebd21d2798b724c36.svg"
-    },
-    {
-      "chainId": 80094,
-      "address": "0x474F32Eb1754827C531C16330Db07531e901BcBe",
-      "name": "Dolomite: NECT",
-      "symbol": "dNECT",
-      "decimals": 18
-    },
-    {
-      "chainId": 80094,
-      "address": "0xAa97D791Afc02AF30cf0B046172bb05b3c306517",
-      "name": "Dolomite: WBERA",
-      "symbol": "dWBERA",
-      "decimals": 18
-    },
-    {
-      "chainId": 80094,
-      "address": "0x29cF6e8eCeFb8d3c9dd2b727C1b7d1df1a754F6f",
-      "name": "Dolomite: WBTC",
-      "symbol": "dWBTC",
-      "decimals": 8
-    },
-    {
-      "chainId": 80094,
-      "address": "0xB089044EC7DC233736F98B1a410d3B9e559A7932",
-      "name": "Dolomite: SolvBTC",
-      "symbol": "dSolvBTC",
-      "decimals": 18
-    },
-    {
-      "chainId": 80094,
-      "address": "0x444868B6e8079ac2c55eea115250f92C2b2c4D14",
-      "name": "Dolomite: USDC.e",
-      "symbol": "dUSDC.e",
-      "decimals": 6
-    },
-    {
-      "chainId": 80094,
-      "address": "0xF2d2d55Daf93b0660297eaA10969eBe90ead5CE8",
-      "name": "Dolomite: USD₮0",
-      "symbol": "dUSD₮0",
-      "decimals": 6
-    },
-    {
-      "chainId": 80094,
-      "address": "0x7f2B60fDff1494A0E3e060532c9980d7fad0404B",
-      "name": "Dolomite: HONEY",
-      "symbol": "dHONEY",
-      "decimals": 18
-    }
-  ]
+    "name": "Balancer",
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 363
+    },
+    "keywords": [
+        "Balancer",
+        "DeFi",
+        "DEX",
+        "AMM",
+        "Exchange",
+        "Liquidity",
+        "Pool",
+        "Token",
+        "Swap"
+    ],
+    "logoURI": "https://raw.githubusercontent.com/balancer/pebbles/master/images/pebbles-pad.256w.png",
+    "timestamp": "2025-09-09T08:24:15.438Z",
+    "tokens": [
+        {
+            "chainId": 999,
+            "address": "0x5555555555555555555555555555555555555555",
+            "name": "Wrapped HYPE",
+            "symbol": "WHYPE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x5555555555555555555555555555555555555555.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+            "name": "USD₮0",
+            "symbol": "USD₮0",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0x7f5aB8f7974FCcd857163E5DA649Eb2588201dF1",
+            "name": "HyperGun",
+            "symbol": "HGUN",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xfFaa4a3D97fE9107Cef8a3F48c069F577Ff76cC1",
+            "name": "Staked HYPE",
+            "symbol": "stHYPE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xE9e70B7C9D108011C5aB15Ce9BF6EF21D0cF8363",
+            "name": "peanut is gay",
+            "symbol": "PGAY",
+            "decimals": 6
+        },
+        {
+            "chainId": 999,
+            "address": "0x0D745EAA9E70bb8B6e2a0317f85F1d536616bD34",
+            "name": "HyperLend HyperEVM WHYPE",
+            "symbol": "hHyperEvmWHYPE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x5748ae796AE46A4F1348a1693de4b50560485562",
+            "name": "Looped HYPE",
+            "symbol": "LHYPE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x94e8396e0869c9F2200760aF0621aFd240E1CF38",
+            "name": "Staked HYPE Shares",
+            "symbol": "wstHYPE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x7C97cd7B57b736c6AD74fAE97C0e21e856251dcf",
+            "name": "WHYPE Hypurr",
+            "symbol": "hyWHYPE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x75cD9E692a2bF5157F6429D0a5E5A75b3e5ea884",
+            "name": "HYDOGE",
+            "symbol": "HYDOGE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x96C6cBB6251Ee1c257b2162ca0f39AA5Fa44B1FB",
+            "name": "Hyperbeat Ultra HYPE",
+            "symbol": "hbHYPE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x02c6a2fA58cC01A18B8D9E00eA48d65E4dF26c70",
+            "name": "feUSD",
+            "symbol": "feUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+            "name": "USDeOFT",
+            "symbol": "USDe",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463",
+            "name": "Unit Bitcoin",
+            "symbol": "UBTC",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x9fdbda0a5e284c32744d2f17ee5c74b284993463.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0x47bb061C0204Af921F43DC73C7D7768d2672DdEE",
+            "name": "alright buddy",
+            "symbol": "BUDDY",
+            "decimals": 6
+        },
+        {
+            "chainId": 999,
+            "address": "0xae83a3a0F0722782C943DA06570F9F963ecB515e",
+            "name": "DOG",
+            "symbol": "DOG",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x0Ab8AAE3335Ed4B373A33D9023b6A6585b149D33",
+            "name": "HyperLend HyperEVM wstHYPE",
+            "symbol": "hHyperEvmwstHYPE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x74a40455Ff49ECE02009BEe405154ac9Ac3FA340",
+            "name": "Stonks",
+            "symbol": "STONKS",
+            "decimals": 6
+        },
+        {
+            "chainId": 999,
+            "address": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
+            "name": "Unit Ethereum",
+            "symbol": "UETH",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x39694eFF3b02248929120c73F90347013Aec834d",
+            "name": "stHYPE AMM",
+            "symbol": "stHYPE AMM LP",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xdAbB040c428436d41CECd0Fb06bCFDBAaD3a9AA8",
+            "name": "Hyperpie Staked mHYPE",
+            "symbol": "mHYPE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xca79db4B49f608eF54a5CB813FbEd3a6387bC645",
+            "name": "Last USD",
+            "symbol": "USDXL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xca79db4b49f608ef54a5cb813fbed3a6387bc645.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0x2831775cb5e64B1D892853893858A261E898FbEb",
+            "name": "wHYPE",
+            "symbol": "wHYPE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x6D1aB1c149cA270F15ef2089e3D03a2CA73c1A78",
+            "name": "HYPE",
+            "symbol": "Claim: hyperliquid-labs.com",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x1Ecd15865D7F8019D546f76d095d9c93cc34eDFa",
+            "name": "LiquidLaunch",
+            "symbol": "LIQD",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xB44ca395a468229dD61d3819F30bf4bf47e84a5d",
+            "name": "Kitten Swap",
+            "symbol": "KITTEN",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x1fbcCdc677c10671eE50b46C61F0f7d135112450",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x37E44F3070b5455f1f5d7aaAd9Fc8590229CC5Cb",
+            "name": "WHYPE Variable Debt Hypurr",
+            "symbol": "variableDebtWHYPE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x1D5a8a4EfbE8Ce2D4a6d241901D04e351399fe38",
+            "name": "Turbo",
+            "symbol": "TURBO",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x4533C3002660117a56fa44ED3C4bF4b6A8E0b0A2",
+            "name": "Hyperlauncher",
+            "symbol": "LAUNCH",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x9b498C3c8A0b8CD8BA1D9851d40D186F1872b44E",
+            "name": "Purr",
+            "symbol": "PURR",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xACdAb7652772aed39Dcbb939a6C4159f6aA6Ad41",
+            "name": "PEPE",
+            "symbol": "PEPE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xC8b6E0acf159E058E22c564C0C513ec21f8a1Bf5",
+            "name": "wstHYPE Hypurr",
+            "symbol": "hywstHYPE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x4Ae080EcCD89CF1dC2965Dbd5198B7a4EfDfa7B8",
+            "name": "hi im Glo",
+            "symbol": "GLO",
+            "decimals": 6
+        },
+        {
+            "chainId": 999,
+            "address": "0x5e105266db42f78FA814322Bce7f388B4C2e61eb",
+            "name": "Hyperbeat USDT",
+            "symbol": "hbUSDT",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xB5fE77d323d69eB352A02006eA8ecC38D882620C",
+            "name": "KEI Stablecoin",
+            "symbol": "KEI",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x7952D59a35aCf858556B976e8476dF7949856d0e",
+            "name": "sidelined",
+            "symbol": "SIDE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xE5C927778955205AB0dB5076c2ce4615Aff23Ce8",
+            "name": "Holy Liquid\n\n 2.0",
+            "symbol": "HL2.0",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xa0399Ff8F46Ce6C2Cfee05C5F67307C7F390a439",
+            "name": "USDXL Variable Debt Hypurr",
+            "symbol": "variableDebtUSDXL",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xc061d38903b99aC12713B550C2CB44B221674F94",
+            "name": "Hyperbeat Ultra uBTC",
+            "symbol": "hbBTC",
+            "decimals": 8
+        },
+        {
+            "chainId": 999,
+            "address": "0xb50A96253aBDF803D85efcDce07Ad8becBc52BD5",
+            "name": "Hyper USD",
+            "symbol": "USDHL",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb50a96253abdf803d85efcdce07ad8becbc52bd5.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0xb50f23153cbEbaCED6F15a537e023d910905D4D5",
+            "name": "Hyperliquid Ape",
+            "symbol": "HAPE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x6E0F6a71a74fAD5D0ED5A34b468203A4a4437b71",
+            "name": "EVMoon",
+            "symbol": "EVM",
+            "decimals": 9
+        },
+        {
+            "chainId": 999,
+            "address": "0x27249FC563e0308F7A9e27B23379527B06357D72",
+            "name": "Hypepe",
+            "symbol": "HP",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x62D5dD0190376c444a4B2E2e860aa392eC83Ed80",
+            "name": "Chomolon Joff",
+            "symbol": "JOFF",
+            "decimals": 8
+        },
+        {
+            "chainId": 999,
+            "address": "0x66c58ccee34539bcc507DfbB62B7DC37518E8eC9",
+            "name": "Hyper Ski",
+            "symbol": "HYPERSKI",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0x4B46a2FF5b7a5B3E69D7a7BffDb19E47835e6611",
+            "name": "HYPEDOGE",
+            "symbol": "HYPEDOGE",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xE2c53Ed964578258EdA427382d01d0C98a5Bbb8d",
+            "name": "WARx",
+            "symbol": "WARx",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xd0aC013E7160bE0B745197a69768ec278a8576AF",
+            "name": "Meowsk",
+            "symbol": "MEOWSK",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xdecDE03733979B1b87B5bb085F97b583fb548288",
+            "name": "Hype Elon",
+            "symbol": "HYPEELON",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xaE4EFbc7736f963982aACb17EFA37fCBAb924cB3",
+            "name": "Solv BTC",
+            "symbol": "SolvBTC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xae4efbc7736f963982aacb17efa37fcbab924cb3.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0xE2B36A37bD98ba81658dC5454F2dB2F98438d140",
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "decimals": 8
+        },
+        {
+            "chainId": 999,
+            "address": "0x02379E4a55111d999Ac18C367F5920119398b94B",
+            "name": "UBTC Hypurr",
+            "symbol": "hyUBTC",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x9fdbda0a5e284c32744d2f17ee5c74b284993463.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0xFd32712A1cb152c03a62D54557fcb1dE372ABfe9",
+            "name": "USDHL Hypurr",
+            "symbol": "hyUSDHL",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb50a96253abdf803d85efcdce07ad8becbc52bd5.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0x1Ca7e21B2dAa5Ab2eB9de7cf8f34dCf9c8683007",
+            "name": "USD₮0 Hypurr",
+            "symbol": "hyUSD₮0",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0xAEA02692F502b47e116bdfA9a4CeB3138Bd8B516",
+            "name": "feUSD Hypurr",
+            "symbol": "hyfeUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0xe8F7D82A73f13A64d689e7ddAD06139BFb51f9C6",
+            "name": "USDe Hypurr",
+            "symbol": "hyUSDe",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png"
+        },
+        {
+            "chainId": 999,
+            "address": "0x6D9daE449C4bEb29151132b4C4B2692b7954CfaE",
+            "name": "Wrapped feUSD Hypurr",
+            "symbol": "wahyfeUSD",
+            "decimals": 18
+        },
+        {
+            "chainId": 999,
+            "address": "0xBE65F0F410A72BeC163dC65d46c83699e957D588",
+            "name": "USDp",
+            "symbol": "USDp",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+        },
+        {
+            "chainId": 999,
+            "address": "0x9B3a8f7CEC208e247d97dEE13313690977e24459",
+            "name": "sUSDp",
+            "symbol": "sUSDp",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x6969696969696969696969696969696969696969",
+            "name": "Wrapped Bera",
+            "symbol": "WBERA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x6969696969696969696969696969696969696969.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xD77552D3849ab4D8C3b189A9582d0ba4C1F4f912",
+            "name": "Wrapped gBERA",
+            "symbol": "wgBERA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+            "name": "WETH",
+            "symbol": "WETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
+            "name": "Honey",
+            "symbol": "HONEY",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x28e0e3B9817012b356119dF9e217c25932D609c2",
+            "name": "Burr Governance Token",
+            "symbol": "BURR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x28e0e3b9817012b356119df9e217c25932d609c2.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
+            "name": "Nectar",
+            "symbol": "NECT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x549943e04f40284185054145c6E4e9568C1D3241",
+            "name": "Bridged USDC (Stargate)",
+            "symbol": "USDC.e",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x549943e04f40284185054145c6e4e9568c1d3241.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x231A6BD8eB88Cfa42776B7Ac575CeCAf82bf1E21",
+            "name": "Beraplug",
+            "symbol": "PLUG",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x231a6bd8eb88cfa42776b7ac575cecaf82bf1e21.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xBaadCC2962417C01Af99fb2B7C75706B9bd6Babe",
+            "name": "Liquid BGT",
+            "symbol": "LBGT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xbaadcc2962417c01af99fb2b7c75706b9bd6babe.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x656b95E550C07a9ffe548bd4085c72418Ceb1dba",
+            "name": "Bera Governance Token",
+            "symbol": "BGT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x656b95e550c07a9ffe548bd4085c72418ceb1dba.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
+            "name": "Infrared BGT",
+            "symbol": "iBGT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x8BF591Eae535f93a242D5A954d3Cde648b48A5A8",
+            "name": "Sumerian USD",
+            "symbol": "suUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x8bf591eae535f93a242d5a954d3cde648b48a5a8.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xe85411C030fB32A9D8b14Bbbc6CB19417391F711",
+            "name": "Sumerian BTC",
+            "symbol": "suBTC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xe85411c030fb32a9d8b14bbbc6cb19417391f711.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x30C8Cf6B46AA4DF3F9fbC2857aca92F10a6cAd7f",
+            "name": "Eliteness.Network",
+            "symbol": "ELITE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x30c8cf6b46aa4df3f9fbc2857aca92f10a6cad7f.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23",
+            "name": "NECT/USDC/HONEY",
+            "symbol": "NECT/USDC/HONEY",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x65967109401506222609BDc86e3039F910C4d08b",
+            "name": "TWIN ASSET TOKEN - COIN",
+            "symbol": "COIN",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x65967109401506222609bdc86e3039f910c4d08b.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x9EA30078bc52740F10812539E77B6502A2a5387a",
+            "name": "TWIN ASSET TOKEN - iCOIN",
+            "symbol": "iCOIN",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x9ea30078bc52740f10812539e77b6502a2a5387a.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x1De7EfAbfA656d077cFD961e4a83b061D351a83B",
+            "name": "TWIN ASSET TOKEN - NVDA",
+            "symbol": "NVDA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x1de7efabfa656d077cfd961e4a83b061d351a83b.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x3A4B2d07c237C701c68238dA07E11302353A16F1",
+            "name": "TWIN ASSET TOKEN - iNVDA",
+            "symbol": "iNVDA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x3a4b2d07c237c701c68238da07e11302353a16f1.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x0555e30da8f98308edb960aa94c0db47230d2b9c.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
+            "name": "Solv BTC",
+            "symbol": "SolvBTC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x541fd749419ca806a8bc7da8ac23d346f2df8b77.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
+            "name": "xSolvBTC",
+            "symbol": "xSolvBTC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xcc0966d8418d412c599a6421b760a847eb169a8c.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x439c84851bb1EDd8Db3DD94809ebBEA6670682F3",
+            "name": "Beracana NECT",
+            "symbol": "canaNECT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x439c84851bb1edd8db3dd94809ebbea6670682f3.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
+            "name": "USD₮0",
+            "symbol": "USD₮0",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x779ded0c9e1022225f8e0630b35a9b54be713736.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x768670beAD85b4383940F60AfD8492AC76b2Ba28",
+            "name": "Beracana BERA",
+            "symbol": "canaBERA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x768670bead85b4383940f60afd8492ac76b2ba28.png"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xbdaB22CD9a4BcaB42Fe5Cf17e523A029cbe903Dc",
+            "name": "Boeing Company Tokenized by Sailing",
+            "symbol": "BAs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xbdab22cd9a4bcab42fe5cf17e523a029cbe903dc.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x69B88c116cb7cBBC5B0f85CBeA1Be91DF40b56E1",
+            "name": "Lockheed Martin Corporation Tokenized by Sailing",
+            "symbol": "LMTs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x69b88c116cb7cbbc5b0f85cbea1be91df40b56e1.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x24BC5c9a529024e2B670B5b8166993d4ECaefE22",
+            "name": "Coinbase Global Inc Tokenized by Sailing",
+            "symbol": "COINs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x24bc5c9a529024e2b670b5b8166993d4ecaefe22.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x4E0c8b91183374D3aB5eE691b0F59F1a4A671D80",
+            "name": "Warner Bros. Discovery Inc Tokenized by Sailing",
+            "symbol": "WBDs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x4e0c8b91183374d3ab5ee691b0f59f1a4a671d80.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xd9c5b692ed20fA4207f2da1a3db3450828d90a46",
+            "name": "YieldMax Universe Fund of Option Income ETFs Tokenized by Sailing",
+            "symbol": "YMAXs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xd9c5b692ed20fa4207f2da1a3db3450828d90a46.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x25f838Dc9DFC8F4Ac5bF957c475F90860Dde3460",
+            "name": "ARK Innovation ETF Tokenized By Sailing",
+            "symbol": "ARKKs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x25f838dc9dfc8f4ac5bf957c475f90860dde3460.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x17A238d9a31fFF2f1078C8e1E4b2aC6B84E3A068",
+            "name": "Paramount Global Tokenized by Sailing",
+            "symbol": "PARAs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x17a238d9a31fff2f1078c8e1e4b2ac6b84e3a068.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x6379BB654aA1B63bC602DBC947f60305AB9d6467",
+            "name": "YieldMax Short COIN Option Income Strategy ETF Tokenized by Sailing",
+            "symbol": "FIATs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x6379bb654aa1b63bc602dbc947f60305ab9d6467.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x39890d84ac4a0E94d486068486f6513470E541b4",
+            "name": "Roundhill S&P 500 0DTE Covered Call Strategy ETF Tokenized by Sailing",
+            "symbol": "XDTEs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x39890d84ac4a0e94d486068486f6513470e541b4.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x77D5cbfE85b3DfB6dB3e63d9392829f4C34FFA86",
+            "name": "Apple Inc Tokenized By Sailing",
+            "symbol": "AAPLs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x77d5cbfe85b3dfb6db3e63d9392829f4c34ffa86.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xca72Cf92768bc1ABEF4b14cFD3E096c8B5f54696",
+            "name": "Tesla Inc Tokenized By Sailing",
+            "symbol": "TSLAs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xca72cf92768bc1abef4b14cfd3e096c8b5f54696.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x30F8a2fE5Ea2eb2E64b26CcbD33b690Ec4EFe723",
+            "name": "Amazon.com Inc Tokenized By Sailing",
+            "symbol": "AMZNs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x30f8a2fe5ea2eb2e64b26ccbd33b690ec4efe723.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xa8e8EFB06Ff91e8c5BEeD849417945d39F3f22Eb",
+            "name": "SPDR S&P 500 ETF Trust Tokenized By Sailing",
+            "symbol": "SPYs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xa8e8efb06ff91e8c5beed849417945d39f3f22eb.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x70fA06e485285B6873B0A93189B613E2d85dc5e2",
+            "name": "GameStop Corp Tokenized By Sailing",
+            "symbol": "GMEs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x70fa06e485285b6873b0a93189b613e2d85dc5e2.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x59dEA303501B18c058882096b781B89B836aA12C",
+            "name": "Grupo Supervielle SA Tokenized By Sailing",
+            "symbol": "SUPVs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x59dea303501b18c058882096b781b89b836aa12c.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xbc2CeE93341C0e10d2fd5ED502F17AF88CFa1E7B",
+            "name": "YPF S.A. Tokenized by Sailing",
+            "symbol": "YPFs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xbc2cee93341c0e10d2fd5ed502f17af88cfa1e7b.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xf79d63c21d7C69f1097114716dDB76844169B363",
+            "name": "YieldMax COIN Option Income Strategy ETF Tokenized by Sailing",
+            "symbol": "CONYs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xf79d63c21d7c69f1097114716ddb76844169b363.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xac894A14e3D2CE9E89AefD209b0a38c12AdcF624",
+            "name": "MercadoLibre Inc. Tokenized by Sailing",
+            "symbol": "MELIs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xac894a14e3d2ce9e89aefd209b0a38c12adcf624.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x9933Bb212C36860EF22915D44b74a8Cf1ffd45BB",
+            "name": "NVIDIA Corporation Tokenized by Sailing",
+            "symbol": "NVDAs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x9933bb212c36860ef22915d44b74a8cf1ffd45bb.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xB35ffDB091e2e4361d907d5AA7dB3C150846a3e1",
+            "name": "Meta Platforms Inc Tokenized By Sailing",
+            "symbol": "METAs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb35ffdb091e2e4361d907d5aa7db3c150846a3e1.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x849F0393632746AC5e8426b53d78266d1d8ac1cd",
+            "name": "Circle Internet Group Inc Tokenized by Sailing",
+            "symbol": "CRCLs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x849f0393632746ac5e8426b53d78266d1d8ac1cd.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x8f7F14481a9c0943836898F825BFb5494b7828Db",
+            "name": "DLocal Ltd Tokenized By Sailing",
+            "symbol": "DLOs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x8f7f14481a9c0943836898f825bfb5494b7828db.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x08bc8b0c234390a40Aa305277355fd1A1819f10E",
+            "name": "Upstart Holdings Inc Tokenized by Sailing",
+            "symbol": "UPSTs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x08bc8b0c234390a40aa305277355fd1a1819f10e.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x7542d8347913fA8eE3090fFf38544CDF694dd5F9",
+            "name": "NEOS S&P 500 High Income ETF Tokenized by Sailing",
+            "symbol": "SPYIs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x7542d8347913fa8ee3090fff38544cdf694dd5f9.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x3a33A4Fa4443A5fd4aa89349BB3D2bc1D644478b",
+            "name": "AMC Entertainment Holdings Inc Tokenized By Sailing",
+            "symbol": "AMCs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x3a33a4fa4443a5fd4aa89349bb3d2bc1d644478b.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x12855A68877A95482CEA16a39AaA25009ac6E396",
+            "name": "Invesco QQQ Trust Tokenized By Sailing",
+            "symbol": "QQQs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x12855a68877a95482cea16a39aaa25009ac6e396.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xB7ca08EEF00a58489A670a1E22D4c6D01579db2F",
+            "name": "Microstrategy Inc Tokenized By Sailing",
+            "symbol": "MSTRs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb7ca08eef00a58489a670a1e22d4c6d01579db2f.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xe9C99da8395C57Bd08830c547a9c5d57A23C5cB3",
+            "name": "Ginkgo Bioworks Inc Tokenized By Sailing",
+            "symbol": "DNAs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xe9c99da8395c57bd08830c547a9c5d57a23c5cb3.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x8dcCB687201955299E7bb1da47664313ff6759dd",
+            "name": "The Walt Disney Company Tokenized By Sailing",
+            "symbol": "DISs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x8dccb687201955299e7bb1da47664313ff6759dd.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x7195A0Bc1e8A8b29Cd426D545522d38e698120Bf",
+            "name": "Goldman Sachs Physical Gold ETF Tokenized By Sailing",
+            "symbol": "AAAUs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x7195a0bc1e8a8b29cd426d545522d38e698120bf.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xD2A26cF1d3aB11799AFd3E2461eC7ea0D62eEC6C",
+            "name": "Airbnb Inc Tokenized By Sailing",
+            "symbol": "ABNBs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xd2a26cf1d3ab11799afd3e2461ec7ea0d62eec6c.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x42BECBE61383ce454db886e2A2802eC88ddC6beb",
+            "name": "Palantir Technologies Inc Tokenized by Sailing",
+            "symbol": "PLTRs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x42becbe61383ce454db886e2a2802ec88ddc6beb.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x4D9CeB1a0baA95b1Ae6198c152F44AB4e919824D",
+            "name": "Dynatrace Inc Tokenized By Sailing",
+            "symbol": "DTs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x4d9ceb1a0baa95b1ae6198c152f44ab4e919824d.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x43456286034E248EFC1471687fA7e7fF6aC4Bd5a",
+            "name": "McDonalds Tokenized By Sailing",
+            "symbol": "MCDs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x43456286034e248efc1471687fa7e7ff6ac4bd5a.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xB1fef1bcf006604c382200168932f00812Ac9FF0",
+            "name": "The Goldman Sachs Group Inc Tokenized by Sailing",
+            "symbol": "GSs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb1fef1bcf006604c382200168932f00812ac9ff0.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x6C353a03d1177b5bA0C4Da63dA77341433015F86",
+            "name": "Uber Technologies Inc Tokenized by Sailing",
+            "symbol": "UBERs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x6c353a03d1177b5ba0c4da63da77341433015f86.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x682BedD46D9d308eF35eaa7F92430e8A57c73792",
+            "name": "BlackRock Inc Tokenized by Sailing",
+            "symbol": "BLKs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x682bedd46d9d308ef35eaa7f92430e8a57c73792.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0xB064c58a63EBf8D03CD7A063e9e5e1398CdeA138",
+            "name": "BYD Company Limited Tokenized by Sailing",
+            "symbol": "BYDs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0xb064c58a63ebf8d03cd7a063e9e5e1398cdea138.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x56b4930057bcF3Dc9b8f6F17FF64dD54698598e8",
+            "name": "Microsoft Corporation Tokenized by Sailing",
+            "symbol": "MSFTs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x56b4930057bcf3dc9b8f6f17ff64dd54698598e8.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x23a9dfBc5f489311E891118a587C5367cc992a40",
+            "name": "United States Natural Gas Fund LP Tokenized by Sailing",
+            "symbol": "UNGs",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x23a9dfbc5f489311e891118a587c5367cc992a40.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x3e5D85dD846B4Ca5A12Eb19eBd21d2798b724c36",
+            "name": "Sailing",
+            "symbol": "SAIL",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x3e5d85dd846b4ca5a12eb19ebd21d2798b724c36.svg"
+        },
+        {
+            "chainId": 80094,
+            "address": "0x474F32Eb1754827C531C16330Db07531e901BcBe",
+            "name": "Dolomite: NECT",
+            "symbol": "dNECT",
+            "decimals": 18
+        },
+        {
+            "chainId": 80094,
+            "address": "0xAa97D791Afc02AF30cf0B046172bb05b3c306517",
+            "name": "Dolomite: WBERA",
+            "symbol": "dWBERA",
+            "decimals": 18
+        },
+        {
+            "chainId": 80094,
+            "address": "0x29cF6e8eCeFb8d3c9dd2b727C1b7d1df1a754F6f",
+            "name": "Dolomite: WBTC",
+            "symbol": "dWBTC",
+            "decimals": 8
+        },
+        {
+            "chainId": 80094,
+            "address": "0xB089044EC7DC233736F98B1a410d3B9e559A7932",
+            "name": "Dolomite: SolvBTC",
+            "symbol": "dSolvBTC",
+            "decimals": 18
+        },
+        {
+            "chainId": 80094,
+            "address": "0x444868B6e8079ac2c55eea115250f92C2b2c4D14",
+            "name": "Dolomite: USDC.e",
+            "symbol": "dUSDC.e",
+            "decimals": 6
+        },
+        {
+            "chainId": 80094,
+            "address": "0xF2d2d55Daf93b0660297eaA10969eBe90ead5CE8",
+            "name": "Dolomite: USD₮0",
+            "symbol": "dUSD₮0",
+            "decimals": 6
+        },
+        {
+            "chainId": 80094,
+            "address": "0x7f2B60fDff1494A0E3e060532c9980d7fad0404B",
+            "name": "Dolomite: HONEY",
+            "symbol": "dHONEY",
+            "decimals": 18
+        }
+    ]
 }
