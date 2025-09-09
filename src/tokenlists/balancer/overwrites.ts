@@ -173,6 +173,12 @@ export const overwrites: OverwritesForList = {
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg',
     },
   },
+  [Network.Berachain]: {
+    '0x9eE1963f05553eF838604Dd39403be21ceF26AA4': {
+      logoURI:
+        'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg',
+    },
+  },
   [Network.Polygon]: {
     '0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3': {
       logoURI:
