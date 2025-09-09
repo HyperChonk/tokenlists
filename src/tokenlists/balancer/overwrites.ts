@@ -165,16 +165,10 @@ export const overwrites: OverwritesForList = {
       symbol: 'aRLUSD',
     },
     '0x9B3a8f7CEC208e247d97dEE13313690977e24459': {
-      name: 'USDp',
-      symbol: 'USDp',
-      decimals: 18,
       logoURI:
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg',
     },
     '0x0d45b129dc868963025Db79A9074EA9c9e32Cae4': {
-      name: 'sUSDp',
-      symbol: 'sUSDp',
-      decimals: 18,
       logoURI:
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg',
     },
@@ -329,9 +323,6 @@ export const overwrites: OverwritesForList = {
       },
     },
     '0x1250304F66404cd153fA39388DDCDAec7E0f1707': {
-      name: 'USDp',
-      symbol: 'USDp',
-      decimals: 18,
       logoURI:
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg',
     },
@@ -503,9 +494,6 @@ export const overwrites: OverwritesForList = {
       },
     },
     '0x76A9A0062ec6712b99B4f63bD2b4270185759dd5': {
-      name: 'USDp',
-      symbol: 'USDp',
-      decimals: 18,
       logoURI:
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg',
     },
@@ -720,9 +708,6 @@ export const overwrites: OverwritesForList = {
       },
     },
     '0x90337e484B1Cb02132fc150d3Afa262147348545': {
-      name: 'USDp',
-      symbol: 'USDp',
-      decimals: 18,
       logoURI:
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg',
     },
@@ -811,16 +796,10 @@ export const overwrites: OverwritesForList = {
       },
     },
     '0x76A9A0062ec6712b99B4f63bD2b4270185759dd5': {
-      name: 'USDp',
-      symbol: 'USDp',
-      decimals: 18,
       logoURI:
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg',
     },
     '0x472eD57b376fE400259FB28e5C46eB53f0E3e7E7': {
-      name: 'sUSDp',
-      symbol: 'sUSDp',
-      decimals: 18,
       logoURI:
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg',
     },
@@ -1280,16 +1259,10 @@ export const overwrites: OverwritesForList = {
       },
     },
     '0x9eE1963f05553eF838604Dd39403be21ceF26AA4': {
-      name: 'USDp',
-      symbol: 'USDp',
-      decimals: 18,
       logoURI:
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg',
     },
     '0x9d92c21205383651610f90722131655a5b8ed3e0': {
-      name: 'sUSDp',
-      symbol: 'sUSDp',
-      decimals: 18,
       logoURI:
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg',
     },
@@ -1885,16 +1858,10 @@ export const overwrites: OverwritesForList = {
       },
     },
     '0x08417cdb7F52a5021bB4eb6E0deAf3f295c3f182': {
-      name: 'USDp',
-      symbol: 'USDp',
-      decimals: 18,
       logoURI:
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg',
     },
     '0xe8a3DA6f5ed1cf04c58ac7f6A7383641e877517b': {
-      name: 'sUSDp',
-      symbol: 'sUSDp',
-      decimals: 18,
       logoURI:
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg',
     },
@@ -1921,16 +1888,10 @@ export const overwrites: OverwritesForList = {
         'https://raw.githubusercontent.com/hyperchonk/tokenlists/main/src/assets/images/tokens/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png',
     },
     '0xBE65F0F410A72BeC163dC65d46c83699e957D588': {
-      name: 'USDp',
-      symbol: 'USDp',
-      decimals: 18,
       logoURI:
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg',
     },
     '0x9B3a8f7CEC208e247d97dEE13313690977e24459': {
-      name: 'sUSDp',
-      symbol: 'sUSDp',
-      decimals: 18,
       logoURI:
         'https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg',
     },
